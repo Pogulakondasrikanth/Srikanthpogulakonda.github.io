@@ -11,7 +11,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Assignment3AngularPracticeWebSite {
 	public static void main(String[] args) {
-		WebDriverManager.chromedriver().setup();
+//		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/angularpractice/");
 		driver.manage().window().maximize();

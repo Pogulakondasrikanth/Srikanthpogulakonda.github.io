@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.Assignment8GrabTheText">
+      <class name="bDDframework.OrangeHRMLoginPage">
         <methods>
-          <include name="GrabtheText"/>
+          <include name="Loginpage"/>
         </methods>
-      </class> <!-- practice.Assignment8GrabTheText -->
+      </class> <!-- bDDframework.OrangeHRMLoginPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

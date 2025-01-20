@@ -10,6 +10,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 import java.util.Arrays;
 
 import java.util.List;
@@ -42,7 +44,7 @@ public class Wait {
 
 	//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-	WebDriverWait w =new WebDriverWait(driver,5);
+	WebDriverWait w =new WebDriverWait(driver,Duration.ofSeconds(5));
 
 
 
